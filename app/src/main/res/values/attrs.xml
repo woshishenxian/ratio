@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--高宽比 -->
+    <attr name="aspectRatio" format="float"/>
+    <!-- 固定的边 -->
+    <attr name="fixedEdge">
+        <enum name="width" value="0"/>
+        <enum name="height" value="1"/>
+    </attr>
+    
+    <declare-styleable name="RatioView">
+        <attr name="aspectRatio" />
+        <attr name="fixedEdge"/>
+    </declare-styleable>
+</resources>
